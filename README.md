@@ -6,7 +6,7 @@ _This project showcases a mockup for an e-commerce wine shop. This is utilizing 
 
 ## Image
 
-![]()
+![](wineshop.gif)
 
 ## Font
 
