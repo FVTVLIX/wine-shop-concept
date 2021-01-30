@@ -1,0 +1,61 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.outline {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 97%;
+  height: 94vh;
+  background: none;
+  border: 1px solid rgba(200, 146, 83, 0.4);
+}
+
+.logo {
+  position: fixed;
+  margin: 2em 4.2em;
+  transform: translate(-50%, -50%);
+  font-family: 'Noctis Texturae';
+  color: #c89253;
+  font-size: 36px;
+  z-index: 1;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  margin: 3em 2em;
+  transform: translate(-50%, -50%);
+  color: #c89253;
+  font-size: 24px;
+  z-index: 1;
+}
+
+.title {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Usually-font';
+  color: #c89253;
+  font-size: 70px;
+  z-index: 1;
+}
+
+.tagline {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'KAGE-Freebies';
+  color: #fff;
+  font-size: 24px;
+  z-index: 1;
+}
