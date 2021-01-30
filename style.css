@@ -1,188 +1,190 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
+html,
+body {
+  margin  : 0;
+  padding : 0;
+  width   : 100%;
+  height  : 100vh;
   overflow: hidden;
 }
 
 .outline {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 97%;
-  height: 94vh;
+  z-index   : 1;
+  position  : absolute;
+  top       : 50%;
+  left      : 50%;
+  transform : translate(-50%, -50%);
+  width     : 97%;
+  height    : 94vh;
   background: none;
-  border: 1px solid rgba(200, 146, 83, 0.4);
+  border    : 1px solid rgba(200, 146, 83, 0.4);
 }
 
 .logo {
-  position: fixed;
-  margin: 2em 4.2em;
-  transform: translate(-50%, -50%);
+  position   : fixed;
+  margin     : 2em 4.2em;
+  transform  : translate(-50%, -50%);
   font-family: 'Noctis Texturae';
-  color: #c89253;
-  font-size: 36px;
-  z-index: 1;
+  color      : #c89253;
+  font-size  : 36px;
+  z-index    : 1;
 }
 
 .menu {
-  position: fixed;
-  right: 0;
-  margin: 3em 2em;
+  position : fixed;
+  right    : 0;
+  margin   : 2em 2em;
   transform: translate(-50%, -50%);
-  color: #c89253;
+  color    : #c89253;
   font-size: 24px;
-  z-index: 1;
+  z-index  : 1;
 }
 
 .title {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position   : absolute;
+  top        : 38%;
+  left       : 50%;
+  transform  : translate(-50%, -50%);
   font-family: 'Usually-font';
-  color: #c89253;
-  font-size: 70px;
-  z-index: 1;
+  color      : #c89253;
+  font-size  : 70px;
+  z-index    : 1;
 }
 
 .tagline {
-  position: absolute;
-  top: 46%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position   : absolute;
+  top        : 46%;
+  left       : 50%;
+  transform  : translate(-50%, -50%);
   font-family: 'KAGE-Freebies';
-  color: #fff;
-  font-size: 24px;
-  z-index: 1;
+  color      : #c89253;
+  font-size  : 24px;
+  z-index    : 1;
 }
 
 .morewine {
-  position: absolute;
-  top: 60%;
-  left: 50%;
+  position : absolute;
+  top      : 60%;
+  left     : 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index  : 1;
 }
 
 button {
-  background: none;
-  padding: 20px 48px;
-  color: #c89253;
-  border: 1px solid #c89253;
+  background    : none;
+  padding       : 20px 48px;
+  color         : #c89253;
+  border        : 1px solid #c89253;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
 
 button:focus {
   outline: none;
-  border: none;
+  border : none;
 }
 
 button:hover {
   background: #c89253;
-  color: #110b07;
+  color     : #110b07;
 }
 
 .wines {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  /* background: #130c08; */
-  z-index: 1;
-  opacity: 0;
+  position     : absolute;
+  width        : 100%;
+  height       : 100vh;
+  background: #fff;
+  z-index      : 1;
+  opacity      : 0;
 }
 
 .wrap {
   position: absolute;
-  left: 0%;
-  top: -8%;
-  width: 150%;
-  height: 100%;
-  display: flex;
-  margin: 0 25%;
+  left    : 0%;
+  top     : -8%;
+  width   : 150%;
+  height  : 100%;
+  display : flex;
+  margin  : 0 25%;
 }
 
 .block {
-  position: relative;
-  width: 25%;
-  z-index: 1;
-  display: flex;
+  position   : relative;
+  width      : 25%;
+  z-index    : 1;
+  display    : flex;
   align-items: center;
-  z-index: 2;
-  transform: scale(0.97);
+  z-index    : 2;
+  transform  : scale(0.97);
 }
 
 .product {
-  position: relative;
-  display: block;
+  position : relative;
+  display  : block;
   max-width: 80%;
 }
 
 .product img {
   position: relative;
-  display: block;
-  width: 80%;
-  height: auto;
-  z-index: 2;
+  display : block;
+  width   : 80%;
+  height  : auto;
+  z-index : 2;
 }
 
 .text {
-  position: absolute;
-  top: 104%;
-  left: 2%;
-  width: 80%;
-  opacity: 0;
-  text-align: center;
-  font-family: 'Edge Display';
+  position      : absolute;
+  top           : 104%;
+  left          : 2%;
+  width         : 80%;
+  opacity       : 0;
+  text-align    : center;
+  font-family   : 'Edge Display';
   text-transform: uppercase;
   letter-spacing: 4px;
-  z-index: 1;
-  transform: scaleY(1) translateY(-30px);
-  transition: transform .2s, opacity .5s;
+  z-index       : 1;
+  transform     : scaleY(1) translateY(-30px);
+  transition    : transform .2s, opacity .5s;
 }
 
 .text p {
   margin-bottom: 20px;
+  color: black;
 }
 
 .wines button {
   margin-top: 10px;
-  padding: 16px 28px;
+  padding   : 16px 28px;
 }
 
 h1 {
-  font-family: 'Edge Display';
-  color: #ecaa5d;
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-family   : 'Edge Display';
+  color         : #ecaa5d;
+  font-size     : 1.6rem;
+  font-weight   : 700;
   text-transform: uppercase;
 }
 
 .block:hover .text {
-  opacity: 1;
+  opacity  : 1;
   transform: scaleY(1) translateY(0);
 }
 
 .close-btn {
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 2.5em;
+  position      : fixed;
+  top           : 0;
+  right         : 0;
+  padding       : 2.5em;
   letter-spacing: 2px;
-  font-size: 0.8em;
-  font-family: 'Edge Display';
-  color: #765936;
-  transition: 0.3s;
-  z-index: 3;
-  cursor: pointer;
+  font-size     : 0.8em;
+  font-family   : 'Edge Display';
+  color         : #765936;
+  transition    : 0.3s;
+  z-index       : 3;
+  cursor        : pointer;
 }
 
 .close-btn:hover {
-  color: #e7ad68;
+  color     : #e7ad68;
   transition: 0.3s;
 }
 
